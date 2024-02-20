@@ -1,0 +1,13 @@
+// 배:5 , 사과:7 , 오렌지:5
+		int a = 5; 
+		int b = 7;
+		int c = 5;
+		int fruits = (a+b+c);
+	    System.out.println(fruits);
+	    
+	    int num1 = 17;
+	    int num2 = 24;
+	    
+	    int average = num1 / num2;
+	    System.out.println("average : " + average);
+	    
