@@ -1,0 +1,50 @@
+package work;
+
+public class Ex_work {
+	public static void main(String[] args) {
+		
+		/*
+		 관수원이 있다.
+		 배, 사과, 오렌지를 키우고 있는데 하루에 생산되는 양은 각각
+		 5, 7, 5개.
+		 
+		 1)과수원에서 하루에 생산되는 과일의 총 갯수를 출력
+		 2)전체 과일의 시간당 평균생산량을 출력
+		 
+		 -------------------------------------------
+		 하루생산량 : 17
+		 
+		 
+		//내가 푼것
+		/*int a = 5; 
+		 int b = 7;
+		 int c = 5;
+		 int fruits = a+b+c;
+	     System.out.println(fruits);
+	    
+	     int num1 = 17;
+	     int num2 = 24;
+	    
+	     int average = num1 / num2;
+	     System.out.println("시간당평균 : " + average);
+		*/
+		
+		
+		
+		// 풀이해준것
+		int pear = 5;//배
+		int apple = 7;//사과
+		int orange = 5;//오렌지
+		
+		//total이라는 변수에 사과,배,오렌지의 값을 가진 변수들의 합을 대입
+		int total = pear + apple + orange;
+		System.out.println("하루생산량 :" + total);
+		
+		//float average = total / 24f;
+		float average = (float)total / 24;
+		System.out.println("시간당평균 : " + average);
+		
+		
+		
+	}//main
+}
