@@ -9,7 +9,7 @@
 	    int num2 = 24;
 	    
 	    int average = num1 / num2;
-	    System.out.println("average : " + average);
+	    System.out.println("시간당평균 : " + average);
 
 
 
