@@ -10,4 +10,20 @@
 	    
 	    int average = num1 / num2;
 	    System.out.println("average : " + average);
-	    
+
+
+
+
+
+
+// 풀이해준것
+		int pear = 5;//배
+		int apple = 7;//사과
+		int orange = 5;//오렌지
+		
+		int total = pear + apple + orange;
+		System.out.println("하루생산량 :" + total);
+		
+		//float average = total / 24f;
+		float average = (float)total / 24;
+		System.out.println("시간당평균 : " + average);
