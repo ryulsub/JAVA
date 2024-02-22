@@ -10,16 +10,30 @@ public class Ex1_work {
 		  2 * 9 = 18 ........................ 9 * 9 = 81
 		 */
 		
-		for (int i = 2; i <= 9; i++) {
+		
+		//내가푼것--------------------------------------------------------------
+//		for (int i = 2; i <= 9; i++) {
+//			
+//			for (int j = 1; j <= 9; j++) {
+//					System.out.printf("%d * %d = %d\n", i, j, i * j);
+//				
+//			} // inner
+//			
+//				System.out.println();
+//				
+//			} // outer
+//---------------------------------------------------------------------------
+		
+		for(int i = 1; i <=9; i++) {
 			
-			for (int j = 1; j <= 9; j++) {
-					System.out.printf("%d * %d = %d\n", i, j, i * j);
+			for( int j = 2; j <= 9; j++) {						
 				
-			} // inner
+				System.out.printf("%d * %d = %d\t",j, i, j*i );
+				
+			}//inner
 			
-				System.out.println();
-				
-			} // outer
-
-		} // main
-	}
+			System.out.println();
+		}//outer
+		
+	} // main
+}
